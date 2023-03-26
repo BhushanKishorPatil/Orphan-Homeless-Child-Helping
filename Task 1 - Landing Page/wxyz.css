@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#a1{
+    background-color: rgb(255, 255, 255);
+    font-size : 90px;
+    color: rgb(0, 0, 0);
+}
+.new
+{
+    display : flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: right;
+    height: 50px;
+    align-items: center;
+    position:sticky;
+    top: 0;
+
+}
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.new ul{
+    display : flex;
+    list-style: none;
+}
+
+.new ul li{
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#text{
+    position: absolute;
+    font-size: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+/* Schemes */
+#education{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffffdc;
+}
+
+#education h1{
+    margin: 60px;
+}
+.columns{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 170px;
+    
+}
+
+.box{
+    height: 200px;
+    width: 500px;
+    background-color: rgba(85, 68, 68, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.box h2{
+    color: rgb(255, 0, 0);
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.box p{
+    color: rgb(5, 0, 0);
+    font-size: 1.5rem;
+}
+
+#schemes{
+    display: flex;
+    justify-content: center;
+}
+
+.para{
+   
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}
+
+
+
+ /* Contact Me*/
+#contact{
+    display: flex;
+    flex-direction: column;
+    background-color: #c5bfbfdc;
+}
+#contact h1{
+    margin: 50px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    padding: 15px 20px;
+    margin: 15px;
+    width: 40%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+
+}
+#message{
+  margin: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#submit{
+    padding: 15px 20px;
+    margin: 30px;
+    width: 15%;
+    border-radius: 20px;
+    background-color: #201c1cdc;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+#submit:hover{
+    background-color: rgb(140, 228, 140);
+    color: white;
+
+}
+
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.heading
+{
+    font-size: 75px;
+    text-align: center;
+}
+
+
+/* About section */
+.heading
+{
+    font-size: 75px;
+    text-align: center;
+}
+
+
+  #id6{
+      margin:15px 400px;
+      padding:5px;
+      height: 400px;
+      width: 900px;
+      background-color: rgb(183, 226, 226);
+  }
+
+
+
+
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td{
+    border: 1px solid #3b3030;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  tr td:first-child{
+    color: rgb(255, 0, 0);
+  }
